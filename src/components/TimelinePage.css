@@ -1,7 +1,7 @@
 .timeline-page {
   min-height: 100vh;
   background-color: #f9f9f9;
-  padding: 40px 0;
+  padding: 100px 0 40px 0; /* Increased top padding to account for fixed menu */
 }
 
 .timeline-page-content {
