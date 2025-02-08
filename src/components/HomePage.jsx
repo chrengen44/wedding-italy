@@ -1,44 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './HomePage.css';
 import TravelInfo from './TravelInfo';
+import MainMenu from './MainMenu/MainMenu';
 
 const HomePage = () => {
   return (
-    <div className="home-container">
-      <div className="hero-section">
-        <h1 className="names">Anndrea & Christian</h1>
-        <p className="wedding-date">Join Us On Our Special Day</p>
-        <p className="location">Italy, 2024</p>
-      </div>
-      
-      <div className="content-section">
-        <div className="info-card">
-          <h2>Our Wedding Celebration</h2>
-          <p>We're getting married in beautiful Italy!</p>
-          <button className="rsvp-button">RSVP</button>
+    <>
+      <MainMenu />
+      <div className="home-container">
+        <div className="hero-section">
+          <h1 className="names">Anndrea & Christian</h1>
+          <p className="wedding-date">Join Us On Our Special Day</p>
+          <p className="location">Italy, 2024</p>
         </div>
-
-        <TravelInfo/>
         
-        <div className="navigation-grid">
-          <div className="nav-item">
-            <h3>Our Story</h3>
+        <div className="content-section">
+          <div className="info-card">
+            <h2>Our Wedding Celebration</h2>
+            <p>We're getting married in beautiful Italy!</p>
+            <button className="rsvp-button">RSVP</button>
           </div>
-          <div className="nav-item">
-            <Link to="/timeline" className="nav-link">
-              <h3>Timeline</h3>
-            </Link>
-          </div>
-          <div className="nav-item">
-            <h3>Travel Info</h3>
-          </div>
-          <div className="nav-item">
-            <h3>Registry</h3>
-          </div>
+
+          <TravelInfo/>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
