@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomePage.css';
-import TravelInfo from './TravelInfo';
 import MainMenu from './MainMenu/MainMenu';
 
 const HomePage = () => {
@@ -18,10 +17,8 @@ const HomePage = () => {
           <div className="info-card">
             <h2>Our Wedding Celebration</h2>
             <p>We're getting married in beautiful Italy!</p>
-            <button className="rsvp-button">RSVP</button>
           </div>
 
-          <TravelInfo/>
         </div>
       </div>
     </>

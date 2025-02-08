@@ -4,11 +4,12 @@
     width: 180px;
     display: inline-grid;
     margin: 0.5em;
-    height:180px;
+    height:220px;
  
   }
   .description{
-    height: 80px;
+    height: 120px;
+    margin-top: 8px;
 
   }
 

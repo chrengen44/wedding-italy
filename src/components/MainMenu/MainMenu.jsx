@@ -28,7 +28,7 @@ const MainMenu = () => {
           <div className={`menu-items ${isMenuOpen ? 'menu-open' : ''}`}>
             <Link to="/our-story" className="menu-item" onClick={() => setIsMenuOpen(false)}>Forside</Link>
             <Link to="/timeline" className="menu-item" onClick={() => setIsMenuOpen(false)}>Program</Link>
-            <Link to="/travel" className="menu-item" onClick={() => setIsMenuOpen(false)}>Reiseinformasjon</Link>
+            <Link to="/travel" className="menu-item" onClick={() => setIsMenuOpen(false)}>Lokalinformasjon</Link>
           </div>
         </div>
         <div className="menu-image menu-image-right">
