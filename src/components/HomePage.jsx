@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HomePage.css';
 import TravelInfo from './TravelInfo';
 
@@ -25,7 +26,9 @@ const HomePage = () => {
             <h3>Our Story</h3>
           </div>
           <div className="nav-item">
-            <h3>Event Details</h3>
+            <Link to="/timeline" className="nav-link">
+              <h3>Timeline</h3>
+            </Link>
           </div>
           <div className="nav-item">
             <h3>Travel Info</h3>
