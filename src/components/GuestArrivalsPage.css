@@ -1,0 +1,11 @@
+.guest-arrivals-page {
+  min-height: 100vh;
+  padding-top: 100px;
+  background-color: #fff;
+}
+
+.guest-arrivals-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+} 
