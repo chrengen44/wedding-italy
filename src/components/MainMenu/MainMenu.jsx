@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './MainMenu.css';
 import lemonImage from '../../assets/lemon-italy.jpg';
 
 const MainMenu = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="main-menu">
       <div className="menu-container">
@@ -14,16 +20,22 @@ const MainMenu = () => {
           <Link to="/" className="menu-logo">
             A&C
           </Link>
-          <div className="menu-items">
-            <Link to="/our-story" className="menu-item">Forside</Link>
-            <Link to="/timeline" className="menu-item">Program</Link>
-            <Link to="/travel" className="menu-item">Reiseinformasjon</Link>
+          <button className="burger-menu" onClick={toggleMenu} aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div className={`menu-items ${isMenuOpen ? 'menu-open' : ''}`}>
+            <Link to="/our-story" className="menu-item" onClick={() => setIsMenuOpen(false)}>Forside</Link>
+            <Link to="/timeline" className="menu-item" onClick={() => setIsMenuOpen(false)}>Program</Link>
+            <Link to="/travel" className="menu-item" onClick={() => setIsMenuOpen(false)}>Reiseinformasjon</Link>
           </div>
         </div>
         <div className="menu-image menu-image-right">
           <img src={lemonImage} alt="Italian Lemons" />
         </div>
       </div>
+      <div className={`menu-overlay ${isMenuOpen ? 'overlay-visible' : ''}`} onClick={toggleMenu}></div>
     </nav>
   );
 };
