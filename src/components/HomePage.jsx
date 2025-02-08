@@ -1,11 +1,12 @@
 import React from 'react';
 import './HomePage.css';
+import TravelInfo from './TravelInfo';
 
 const HomePage = () => {
   return (
     <div className="home-container">
       <div className="hero-section">
-        <h1 className="names">Christian & Partner</h1>
+        <h1 className="names">Anndrea & Christian</h1>
         <p className="wedding-date">Join Us On Our Special Day</p>
         <p className="location">Italy, 2024</p>
       </div>
@@ -16,6 +17,8 @@ const HomePage = () => {
           <p>We're getting married in beautiful Italy!</p>
           <button className="rsvp-button">RSVP</button>
         </div>
+
+        <TravelInfo/>
         
         <div className="navigation-grid">
           <div className="nav-item">
