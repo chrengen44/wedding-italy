@@ -50,7 +50,12 @@ const GuestTimeline = () => {
       departure: "2024-06-22"
     },
     {
-      names: "Jaran & Johan",
+      names: "Jaran",
+      arrival: "2024-06-15",
+      departure: "2024-06-22"
+    },
+    {
+      names: "Johan",
       arrival: "2024-06-19",
       departure: "2024-06-22"
     },
