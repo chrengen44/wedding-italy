@@ -4,80 +4,146 @@ import './Timeline.css';
 const Timeline = () => {
   const schedule = [
     {
-      date: 'Thursday, September 5th',
-      dayTitle: 'Welcome Day',
+      date: 'Søndag 15. juni',
+      dayTitle: 'Velkomstdag',
       events: [
         {
-          time: '15:00 - 17:00',
-          title: 'Villa Check-in',
-          description: 'Arrive at our beautiful Italian villa and settle into your accommodation. Our staff will be ready to welcome you and assist with any needs.',
-          location: 'Villa Main Reception'
+          time: '14:00 - 18:00',
+          title: 'Innsjekking i villaen',
+          description: 'Tidlig ankomne gjester kan sjekke inn i villaen og gjøre seg komfortable.',
+          location: 'Villa Resepsjon'
+        },
+        {
+          time: '19:30 - 22:00',
+          title: 'Velkomstmiddag',
+          description: 'Uformell middag for tidlig ankomne gjester med lokale italienske spesialiteter.',
+          location: 'Villa Hagen'
+        }
+      ]
+    },
+    {
+      date: 'Mandag 16. juni',
+      dayTitle: 'Utforskningsdag',
+      events: [
+        {
+          time: '10:00 - 14:00',
+          title: 'Byutforskning',
+          description: 'Guidet tur i den lokale byen og dens historiske steder.',
+          location: 'Møt ved Villa Inngangen'
+        },
+        {
+          time: '19:00 - 21:00',
+          title: 'Gruppemiddag',
+          description: 'Middag på en tradisjonell italiensk restaurant i byen.',
+          location: 'Restaurant (bekreftes senere)'
+        }
+      ]
+    },
+    {
+      date: 'Tirsdag 17. juni',
+      dayTitle: 'Stranddag',
+      events: [
+        {
+          time: '11:00 - 16:00',
+          title: 'Strandtur',
+          description: 'Dagstur til den vakre lokale stranden med lunsj inkludert.',
+          location: 'Møt ved Villa Parkeringen'
+        },
+        {
+          time: '20:00 - 23:00',
+          title: 'Pizzakveld',
+          description: 'Lær å lage autentisk italiensk pizza med vår lokale kokk.',
+          location: 'Villa Kjøkkenet'
+        }
+      ]
+    },
+    {
+      date: 'Onsdag 18. juni',
+      dayTitle: 'Vinsmaking',
+      events: [
+        {
+          time: '11:30 - 15:30',
+          title: 'Vingårdstur',
+          description: 'Besøk til lokale vingårder med vinsmaking og lunsj.',
+          location: 'Møt ved Villa Inngangen'
         },
         {
           time: '19:00 - 22:00',
-          title: 'Welcome Dinner',
-          description: 'Join us for a relaxed evening of authentic Italian cuisine, wine, and getting to know fellow guests. Casual attire.',
-          location: 'Villa Garden Terrace'
+          title: 'Vinparingsmiddag',
+          description: 'Spesiell middag med viner fra dagens tur.',
+          location: 'Villa Spisesalen'
         }
       ]
     },
     {
-      date: 'Friday, September 6th',
-      dayTitle: 'Wedding Day',
+      date: 'Torsdag 19. juni',
+      dayTitle: 'Avslappingsdag',
       events: [
         {
-          time: '09:00 - 11:00',
-          title: 'Breakfast',
-          description: 'Start your day with a delicious breakfast buffet at your leisure.',
-          location: 'Villa Restaurant'
-        },
-        {
-          time: '14:30',
-          title: 'Guest Arrival & Seating',
-          description: 'Please arrive at the ceremony location to be seated. Refreshments will be served.',
-          location: 'Villa Garden'
-        },
-        {
-          time: '15:00',
-          title: 'Wedding Ceremony',
-          description: "Join us as we exchange vows in the villa's enchanting garden setting.",
-          location: 'Villa Garden'
-        },
-        {
-          time: '15:45 - 17:30',
-          title: 'Aperitivo & Photos',
-          description: 'Enjoy champagne, Italian appetizers, and mingling while we take photos. Live music will be performed.',
-          location: 'Villa Upper Terrace'
+          time: '10:00 - 12:00',
+          title: 'Bassengfest',
+          description: 'Avslappet morgen ved bassenget med forfriskninger.',
+          location: 'Villa Bassenget'
         },
         {
           time: '18:00 - 21:00',
-          title: 'Reception Dinner',
-          description: 'A seated dinner featuring a curated menu of Italian specialties, wine pairings, and toasts.',
-          location: 'Villa Courtyard'
-        },
-        {
-          time: '21:00 - Late',
-          title: 'Dancing & Celebrations',
-          description: 'Dance the night away under the stars with live music and entertainment.',
-          location: 'Villa Courtyard'
+          title: 'Solnedgangsmiddag',
+          description: 'Uformell grillmiddag med musikk og dans.',
+          location: 'Villa Terrassen'
         }
       ]
     },
     {
-      date: 'Saturday, September 7th',
-      dayTitle: 'Farewell Day',
+      date: 'Fredag 20. juni',
+      dayTitle: 'Bryllupsaften',
       events: [
         {
-          time: '09:30 - 11:30',
-          title: 'Farewell Brunch',
-          description: 'Join us for a relaxed brunch to share memories from the wedding and say goodbye.',
-          location: 'Villa Restaurant'
+          time: '16:00 - 17:30',
+          title: 'Bryllupsøvelse',
+          description: 'Kort øvelse for bryllupsseremonien.',
+          location: 'Bryllupsstedet'
         },
         {
-          time: '12:00',
-          title: 'Check-out',
-          description: 'Time to bid farewell to the villa. Our staff will assist with departure arrangements.',
-          location: 'Villa Reception'
+          time: '19:00 - 22:00',
+          title: 'Øvelsesmiddag',
+          description: 'Elegant middag for alle gjester med taler og feiring.',
+          location: 'Villa Hagen'
+        }
+      ]
+    },
+    {
+      date: 'Lørdag 21. juni',
+      dayTitle: 'Bryllupsdag',
+      events: [
+        {
+          time: '15:00 - 16:00',
+          title: 'Bryllupsseremoni',
+          description: 'Den vakre bryllupsseremonien til Anndrea og Christian.',
+          location: 'Bryllupsstedet'
+        },
+        {
+          time: '17:00 - Sen kveld',
+          title: 'Bryllupsmottagelse',
+          description: 'Middag, dans og feiring utover natten.',
+          location: 'Villa Hagen & Ballsalen'
+        }
+      ]
+    },
+    {
+      date: 'Søndag 22. juni',
+      dayTitle: 'Avreisedag',
+      events: [
+        {
+          time: '10:00 - 12:00',
+          title: 'Avskjedslunsj',
+          description: 'Avslappet lunsj for å si farvel til alle gjester.',
+          location: 'Villa Restauranten'
+        },
+        {
+          time: '12:00 - 15:00',
+          title: 'Utsjekking',
+          description: 'Avreisehjelp og transportordninger.',
+          location: 'Villa Resepsjon'
         }
       ]
     }
@@ -85,7 +151,7 @@ const Timeline = () => {
 
   return (
     <div className="timeline-container">
-      <h1>Wedding Weekend Schedule</h1>
+      <h1>Program for Bryllupsuka</h1>
       <div className="timeline">
         {schedule.map((day, dayIndex) => (
           <div key={dayIndex} className="timeline-day">
