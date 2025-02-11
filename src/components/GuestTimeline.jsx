@@ -44,6 +44,23 @@ const GuestTimeline = () => {
       arrival: "2024-06-19",
       departure: "2024-06-22"
     },
+    {
+      names: "Ida & André",
+      arrival: "2024-06-19",
+      departure: "2024-06-22"
+    },
+    {
+      names: "Jaran",
+      arrival: "2024-06-15",
+      departure: "2024-06-22"
+    },
+    {
+      names: "Johan",
+      arrival: "2024-06-19",
+      departure: "2024-06-22"
+    },
+    
+    
     
   ];
 
@@ -60,7 +77,7 @@ const GuestTimeline = () => {
 
   return (
     <div className="guest-timeline-container">
-      <h2>Guest Arrivals & Departures</h2>
+      <h2>Oversikt over alle gjester</h2>
       
       <div className="timeline-header">
         {days.map((day, index) => (
