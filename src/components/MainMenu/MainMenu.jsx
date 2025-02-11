@@ -29,7 +29,7 @@ const MainMenu = () => {
             <Link to="/ankomst-og-avreise" className="menu-item" onClick={() => setIsMenuOpen(false)}>
               Ankomst og Avreise
             </Link>
-            <Link to="/timeline" className="menu-item" onClick={() => setIsMenuOpen(false)}>Program</Link>
+            <Link to="/program" className="menu-item" onClick={() => setIsMenuOpen(false)}>Program</Link>
             <Link to="/travel" className="menu-item" onClick={() => setIsMenuOpen(false)}>Lokalinformasjon</Link>
           </div>
         </div>
