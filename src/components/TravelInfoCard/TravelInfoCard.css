@@ -1,27 +1,80 @@
 .travel-card-info {
-    background-color: #faf7f5;
-    font-family: 'Cormorant Garamond', serif;
-    width: 180px;
-    display: inline-grid;
-    margin: 0.5em;
-    height:220px;
- 
-  }
-  .description{
-    height: 120px;
-    margin-top: 8px;
+  background-color: #fff;
+  font-family: 'Cormorant Garamond', serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
 
+.travel-card-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(44, 62, 80, 0.15);
+  background-color: #f5f0eb;
+  filter: brightness(1.02);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+
+.icon {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.travel-card-info:hover .icon {
+  transform: scale(1.1);
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.mapslink {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #faf7f5;
+  color: #2c3e50;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #2c3e50;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.mapslink:hover {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .travel-card-info {
+    padding: 20px;
+  }
+
+  .description {
+    font-size: 1rem;
   }
 
   .mapslink {
-    padding: 0.5em;
-    border-color: grey;
-    border-style: solid;
-    color: inherit;
-    text-decoration: none;
-   
- 
-   
+    padding: 10px 20px;
   }
+}
 
 
