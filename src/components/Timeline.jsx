@@ -4,38 +4,20 @@ import './Timeline.css';
 const Timeline = () => {
   const schedule = [
     {
-      date: 'Søndag 15. juni',
+      date: 'Mandag 16. juni',
       dayTitle: 'Velkomstdag',
       events: [
         {
           time: '14:00 - 18:00',
           title: 'Innsjekking i villaen',
-          description: 'Tidlig ankomne gjester kan sjekke inn i villaen og gjøre seg komfortable.',
+          description: 'Gjester kan sjekke inn i villaen og gjøre seg komfortable.',
           location: 'Villa Resepsjon'
         },
         {
           time: '19:30 - 22:00',
           title: 'Velkomstmiddag',
-          description: 'Uformell middag for tidlig ankomne gjester med lokale italienske spesialiteter.',
+          description: 'Uformell middag med lokale italienske spesialiteter.',
           location: 'Villa Hagen'
-        }
-      ]
-    },
-    {
-      date: 'Mandag 16. juni',
-      dayTitle: 'Utforskningsdag',
-      events: [
-        {
-          time: '10:00 - 14:00',
-          title: 'Byutforskning',
-          description: 'Guidet tur i den lokale byen og dens historiske steder.',
-          location: 'Møt ved Villa Inngangen'
-        },
-        {
-          time: '19:00 - 21:00',
-          title: 'Gruppemiddag',
-          description: 'Middag på en tradisjonell italiensk restaurant i byen.',
-          location: 'Restaurant (bekreftes senere)'
         }
       ]
     },

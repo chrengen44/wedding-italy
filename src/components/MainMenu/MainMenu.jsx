@@ -26,7 +26,7 @@ const MainMenu = () => {
             <span></span>
           </button>
           <div className={`menu-items ${isMenuOpen ? 'menu-open' : ''}`}>
-            <Link to="/guest-arrivals" className="menu-item" onClick={() => setIsMenuOpen(false)}>
+            <Link to="/ankomst-og-avreise" className="menu-item" onClick={() => setIsMenuOpen(false)}>
               Ankomst og Avreise
             </Link>
             <Link to="/timeline" className="menu-item" onClick={() => setIsMenuOpen(false)}>Program</Link>

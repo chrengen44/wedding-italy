@@ -6,17 +6,17 @@ const GuestTimeline = () => {
   const guests = [
     {
       names: "Anndrea & Christian",
-      arrival: "2024-06-15",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
       names: "Ann-Iren & Espen",
-      arrival: "2024-06-15",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
       names: "Alisa & Eirik",
-      arrival: "2024-06-15",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
@@ -26,7 +26,7 @@ const GuestTimeline = () => {
     },
     {
       names: "Mar & Stian",
-      arrival: "2024-06-15",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
@@ -51,7 +51,7 @@ const GuestTimeline = () => {
     },
     {
       names: "Jaran",
-      arrival: "2024-06-15",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
@@ -59,14 +59,11 @@ const GuestTimeline = () => {
       arrival: "2024-06-19",
       departure: "2024-06-22"
     },
-    
-    
-    
   ];
 
-  const startDate = new Date('2024-06-15');
+  const startDate = new Date('2024-06-16');
   const endDate = new Date('2024-06-22');
-  const days = ['Sun 15', 'Mon 16', 'Tue 17', 'Wed 18', 'Thu 19', 'Fri 20', 'Sat 21', 'Sun 22'];
+  const days = ['Mon 16', 'Tue 17', 'Wed 18', 'Thu 19', 'Fri 20', 'Sat 21', 'Sun 22'];
 
   const calculatePosition = (date) => {
     const currentDate = new Date(date);

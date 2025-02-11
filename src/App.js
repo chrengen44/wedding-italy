@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/travel" element={<TravelInfoPage/>} />
-          <Route path="/guest-arrivals" element={<GuestArrivalsPage />} />
+          <Route path="/ankomst-og-avreise" element={<GuestArrivalsPage />} />
         </Routes>
       </div>
     </Router>

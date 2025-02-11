@@ -5,6 +5,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import forside1 from '../assets/images/forside1.jpeg';
+import forside2 from '../assets/images/forside2.jpeg';
+import forside3 from '../assets/images/forside3.jpeg';
+import forside4 from '../assets/images/forside4.jpeg';
+import forside5 from '../assets/images/forside5.jpeg';
 
 // Import your images here
 // Example:
@@ -25,7 +29,7 @@ const HomePage = () => {
   };
 
   // Replace this array with your imported images
-  const images = [forside1];
+  const images = [forside1, forside2, forside3, forside4, forside5];
 
   return (
     <>
@@ -77,8 +81,8 @@ const HomePage = () => {
               <p>Formelt<br/>Garden Party Attire</p>
             </div>
             <div className="info-card">
-              <h3>Overnatting</h3>
-              <p>Villa innkvartering<br/>Mer informasjon kommer</p>
+              <h3>Toastmaster</h3>
+              <p>Trond the man. Råeste toastmasteren i verden<br />TLF: 94666666</p>
             </div>
           </div>
         </div>
