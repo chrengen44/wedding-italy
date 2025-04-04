@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage/HomePage';
 import TimelinePage from './components/TimelinePage';
+import TravelInfoPage from './components/TravelInfoPage';
 import GuestArrivalsPage from './components/GuestArrivalsPage';
 import './App.css';
-import TravelInfoPage from './components/TravelInfoPage';
 
 function App() {
   return (
