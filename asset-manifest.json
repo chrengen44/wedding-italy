@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/wedding-italy/static/css/main.543118b3.css",
-    "main.js": "/wedding-italy/static/js/main.bb9335c5.js",
-    "static/media/forside2.jpeg": "/wedding-italy/static/media/forside2.316129b11c728e8a5b56.jpeg",
-    "static/media/forside3.jpeg": "/wedding-italy/static/media/forside3.65b165f75746c53eecb4.jpeg",
-    "static/media/forside1.jpeg": "/wedding-italy/static/media/forside1.7f647589d82918726a58.jpeg",
-    "static/media/forside4.jpeg": "/wedding-italy/static/media/forside4.4c6de74cadb0209dbe11.jpeg",
-    "static/media/forside5.jpeg": "/wedding-italy/static/media/forside5.a685e8e93da03bdbdd49.jpeg",
-    "static/media/colombara2.jpg": "/wedding-italy/static/media/colombara2.c312b8023087a4d3971d.jpg",
-    "static/media/colombara1.jpg": "/wedding-italy/static/media/colombara1.0854294f54ad826371bf.jpg",
-    "static/media/lemon-italy.jpg": "/wedding-italy/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
-    "index.html": "/wedding-italy/index.html",
-    "main.543118b3.css.map": "/wedding-italy/static/css/main.543118b3.css.map",
-    "main.bb9335c5.js.map": "/wedding-italy/static/js/main.bb9335c5.js.map"
+    "main.css": "/static/css/main.543118b3.css",
+    "main.js": "/static/js/main.d183118a.js",
+    "static/media/forside2.jpeg": "/static/media/forside2.316129b11c728e8a5b56.jpeg",
+    "static/media/forside3.jpeg": "/static/media/forside3.65b165f75746c53eecb4.jpeg",
+    "static/media/forside1.jpeg": "/static/media/forside1.7f647589d82918726a58.jpeg",
+    "static/media/forside4.jpeg": "/static/media/forside4.4c6de74cadb0209dbe11.jpeg",
+    "static/media/forside5.jpeg": "/static/media/forside5.a685e8e93da03bdbdd49.jpeg",
+    "static/media/colombara2.jpg": "/static/media/colombara2.c312b8023087a4d3971d.jpg",
+    "static/media/colombara1.jpg": "/static/media/colombara1.0854294f54ad826371bf.jpg",
+    "static/media/lemon-italy.jpg": "/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
+    "index.html": "/index.html",
+    "main.543118b3.css.map": "/static/css/main.543118b3.css.map",
+    "main.d183118a.js.map": "/static/js/main.d183118a.js.map"
   },
   "entrypoints": [
     "static/css/main.543118b3.css",
-    "static/js/main.bb9335c5.js"
+    "static/js/main.d183118a.js"
   ]
 }
