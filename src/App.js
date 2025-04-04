@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import TimelinePage from './components/TimelinePage';
 import TravelInfoPage from './components/TravelInfoPage';
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route path="/program" element={<TimelinePage />} />
           <Route path="/travel" element={<TravelInfoPage/>} />
           <Route path="/ankomst-og-avreise" element={<GuestArrivalsPage />} />
