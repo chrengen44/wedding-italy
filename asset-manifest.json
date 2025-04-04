@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-italy/static/css/main.543118b3.css",
-    "main.js": "/wedding-italy/static/js/main.ec1f5422.js",
+    "main.js": "/wedding-italy/static/js/main.bb9335c5.js",
     "static/media/forside2.jpeg": "/wedding-italy/static/media/forside2.316129b11c728e8a5b56.jpeg",
     "static/media/forside3.jpeg": "/wedding-italy/static/media/forside3.65b165f75746c53eecb4.jpeg",
     "static/media/forside1.jpeg": "/wedding-italy/static/media/forside1.7f647589d82918726a58.jpeg",
@@ -12,10 +12,10 @@
     "static/media/lemon-italy.jpg": "/wedding-italy/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
     "index.html": "/wedding-italy/index.html",
     "main.543118b3.css.map": "/wedding-italy/static/css/main.543118b3.css.map",
-    "main.ec1f5422.js.map": "/wedding-italy/static/js/main.ec1f5422.js.map"
+    "main.bb9335c5.js.map": "/wedding-italy/static/js/main.bb9335c5.js.map"
   },
   "entrypoints": [
     "static/css/main.543118b3.css",
-    "static/js/main.ec1f5422.js"
+    "static/js/main.bb9335c5.js"
   ]
 }
