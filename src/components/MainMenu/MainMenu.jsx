@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './MainMenu.css';
 import lemonImage from '../../assets/lemon-italy.jpg';
 
 const MainMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <nav className="main-menu">
+    <nav className={`main-menu ${isHomePage ? 'homepage-menu' : ''}`}>
       <div className="menu-container">
         <div className="menu-image menu-image-left">
           <img src={lemonImage} alt="Italian Lemons" />
