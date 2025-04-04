@@ -3,10 +3,15 @@ import MainMenu from '../MainMenu/MainMenu';
 import './HomePage.css';
 import colombara1 from '../../assets/images/colombara1.jpg';
 import colombara2 from '../../assets/images/colombara2.jpg';
+import forside1 from '../../assets/images/forside1.jpeg';
+import forside2 from '../../assets/images/forside2.jpeg';
+import forside3 from '../../assets/images/forside3.jpeg';
+import forside4 from '../../assets/images/forside4.jpeg';
+import forside5 from '../../assets/images/forside5.jpeg';
 
 const HomePage = () => {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [colombara1, colombara2];
+  const images = [forside1, forside2, forside3, forside4, forside5, colombara1, colombara2];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,7 +29,7 @@ const HomePage = () => {
           <img
             key={index}
             src={image}
-            alt={`Colombara ${index + 1}`}
+            alt={`Wedding ${index + 1}`}
             className={`slider-image ${index === currentImage ? 'active' : ''}`}
           />
         ))}
