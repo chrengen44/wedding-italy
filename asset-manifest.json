@@ -1,12 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.38beef39.css",
-    "main.js": "/static/js/main.6d75828f.js",
-    "static/media/forside2.jpeg": "/static/media/forside2.316129b11c728e8a5b56.jpeg",
-    "static/media/forside3.jpeg": "/static/media/forside3.65b165f75746c53eecb4.jpeg",
-    "static/media/forside1.jpeg": "/static/media/forside1.7f647589d82918726a58.jpeg",
-    "static/media/forside4.jpeg": "/static/media/forside4.4c6de74cadb0209dbe11.jpeg",
-    "static/media/forside5.jpeg": "/static/media/forside5.a685e8e93da03bdbdd49.jpeg",
+    "main.js": "/static/js/main.395a6d1b.js",
     "static/media/colombara2.jpg": "/static/media/colombara2.c312b8023087a4d3971d.jpg",
     "static/media/colombara1.jpg": "/static/media/colombara1.0854294f54ad826371bf.jpg",
     "static/media/lemon-italy.jpg": "/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
@@ -14,6 +9,6 @@
   },
   "entrypoints": [
     "static/css/main.38beef39.css",
-    "static/js/main.6d75828f.js"
+    "static/js/main.395a6d1b.js"
   ]
 }
