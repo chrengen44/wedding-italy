@@ -101,7 +101,7 @@ const Timeline = () => {
     },
     {
       date: 'Fredag 20. juni',
-      dayTitle: 'Få panikk-dagen',
+      dayTitle: 'Dagen før dagen!',
       events: [
         {
           time: '08:00 - 11:00',
@@ -112,7 +112,7 @@ const Timeline = () => {
         {
           time: '16:00 - 17:30',
           title: 'Bryllupsøvelse',
-          description: 'Tid for å øve på å gå i takt, smile til riktig tid, og late som vi ikke gråter (vi gråter alle).',
+          description: 'Ja vi må vel kanskje øve litt?.',
           location: 'Bryllupsstedet'
         },
         {
