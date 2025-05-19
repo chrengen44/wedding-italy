@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.38beef39.css",
-    "main.js": "/static/js/main.e94b597e.js",
+    "main.js": "/static/js/main.4fec3231.js",
     "static/media/colombara2.jpg": "/static/media/colombara2.c312b8023087a4d3971d.jpg",
     "static/media/colombara1.jpg": "/static/media/colombara1.0854294f54ad826371bf.jpg",
     "static/media/lemon-italy.jpg": "/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
@@ -9,6 +9,6 @@
   },
   "entrypoints": [
     "static/css/main.38beef39.css",
-    "static/js/main.e94b597e.js"
+    "static/js/main.4fec3231.js"
   ]
 }
