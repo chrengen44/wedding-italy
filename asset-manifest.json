@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.38beef39.css",
+    "main.css": "/static/css/main.e4477114.css",
     "main.js": "/static/js/main.4fec3231.js",
     "static/media/colombara2.jpg": "/static/media/colombara2.c312b8023087a4d3971d.jpg",
     "static/media/colombara1.jpg": "/static/media/colombara1.0854294f54ad826371bf.jpg",
@@ -8,7 +8,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.38beef39.css",
+    "static/css/main.e4477114.css",
     "static/js/main.4fec3231.js"
   ]
 }
