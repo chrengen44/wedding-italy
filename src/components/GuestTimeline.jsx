@@ -35,8 +35,8 @@ const GuestTimeline = () => {
       departure: "2024-06-22"
     },
     {
-      names: "Lasse & Jonas",
-      arrival: "2024-06-19",
+      names: "Lasse",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
@@ -46,7 +46,7 @@ const GuestTimeline = () => {
     },
     {
       names: "Ida & André",
-      arrival: "2024-06-19",
+      arrival: "2024-06-16",
       departure: "2024-06-22"
     },
     {
@@ -56,6 +56,11 @@ const GuestTimeline = () => {
     },
     {
       names: "Johan",
+      arrival: "2024-06-19",
+      departure: "2024-06-22"
+    },
+    {
+      names: "Kelly & Will I Am... Yes I Will",
       arrival: "2024-06-19",
       departure: "2024-06-22"
     },
