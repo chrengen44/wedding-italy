@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4477114.css",
-    "main.js": "/static/js/main.4fec3231.js",
+    "main.css": "/static/css/main.c34f6371.css",
+    "main.js": "/static/js/main.b62ab54f.js",
     "static/media/colombara2.jpg": "/static/media/colombara2.c312b8023087a4d3971d.jpg",
     "static/media/colombara1.jpg": "/static/media/colombara1.0854294f54ad826371bf.jpg",
     "static/media/lemon-italy.jpg": "/static/media/lemon-italy.65ec608bd981cd4da0f2.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.e4477114.css",
-    "static/js/main.4fec3231.js"
+    "static/css/main.c34f6371.css",
+    "static/js/main.b62ab54f.js"
   ]
 }
